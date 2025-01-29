@@ -1,0 +1,350 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+header {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    background: #53389E;    
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 0px var(--container-padding-desktop, 32px);
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.nav_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 645px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 474px;
+    width: 100%;
+}
+
+select {
+    display: flex;
+    background: none;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.setting {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+/* Webstore title */
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: var(--spacing-9xl, 96px);
+    max-width: 1216px;
+    width: 100%;
+    gap: 48px;
+}
+
+.title_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-3xl, 24px);
+    max-width: 768px;
+    width: 100%;
+}
+
+.banking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg, 12px);
+    max-width: 768px;
+    width: 100%;
+}
+
+.super_style {
+    color: #E9D7FE;
+    font-family: Inter;
+    font-size: var(--Font-size-text-md, 16px);
+    font-weight: 600;
+    line-height: 24px;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90px;
+    letter-spacing: -1.44px;
+}
+
+.simple_style {
+    color: #E9D7FE;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card_image {
+    display: flex;
+    background-image: url(../image/cardofbank.svg);
+    padding: 200px;
+    margin-top: 64px;
+    max-width: 1280px;
+    width: 100%;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.brandofdiv {
+    display: flex;
+    padding: 96px 0px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    gap: 32px;
+}
+
+.brand_title {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #F2EDFF;
+    padding: var(--spacing-9xl, 96px) 0px;
+}
+
+.logic_card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px var(--container-padding-desktop, 32px);
+    max-width: 1280px;
+    width: 100%;
+}
+
+.thunder_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.thunder_styles {
+    color: #535862;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.logic_description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;    
+    max-width: 792px;
+    width: 100%;
+}
+
+.logic_contant {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: 364px;
+    width: 100%;
+}
+
+.team {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+
+.firstly_box {
+    display: flex;
+    flex-direction: column;
+    max-width: 364px;
+    width: 100%;
+    gap: 32px;
+}
+
+section {
+    display: flex;
+    padding-bottom: 96px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 64px;
+}
+
+.business_box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px var(--container-padding-desktop, 32px);
+    max-width: 1280px;
+    width: 100%;
+}
+
+.business_description {
+    display: flex;
+    gap: var(--spacing-2xl, 20px);
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 768px;
+    width: 100%;
+
+}
+
+.finance_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-lg, 12px);
+}
+
+.features {
+    color: #6941C6;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+h2 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px; 
+    letter-spacing: -0.72px;
+}
+
+.price_place {
+    display: flex;
+    padding: 0px var(--container-padding-desktop, 32px);
+    align-items: center;
+    gap: var(--spacing-7xl, 64px);
+    max-width: 1280px;
+    width: 100%;
+}
+
+.price_meaning {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 560px;
+    width: 100%;
+}
+
+.first_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--spacing-xl, 16px) 0px var(--spacing-xl, 16px) var(--spacing-3xl, 24px);
+    gap: var(--spacing-2xl, 20px);
+    border-left: 4px solid #9E77ED;
+    max-width: 560px;
+    width: 100%;
+}
+
+.share {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.flex_mode {
+    display: flex;
+    align-items: center;
+    max-width: 114px;
+    width: 100%;
+    gap: 6px;
+}
+
+button {
+    border: none;
+    background:none;
+    color: #6941C6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.border {
+    border-left: 4px solid #F5F5F5;
+}
+
+.dash_board {
+    display: flex;
+    width: 100%;
+    background-image: url("../image/dashboard_logo.svg")
+    padding: 320px
+}
