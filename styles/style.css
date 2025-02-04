@@ -109,7 +109,6 @@ select {
 
 h1 {
     color: #FFF;
-    text-align: center;
     font-family: Inter;
     font-size: 72px;
     font-style: normal;
@@ -206,7 +205,6 @@ article {
 .logic_description {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;    
     max-width: 792px;
@@ -240,7 +238,7 @@ article {
 
 section {
     display: flex;
-    padding-bottom: 96px;
+    padding-bottom: 80px;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -260,7 +258,6 @@ section {
     display: flex;
     gap: var(--spacing-2xl, 20px);
     flex-direction: column;
-    align-items: flex-start;
     max-width: 768px;
     width: 100%;
 
@@ -294,7 +291,6 @@ h2 {
     display: flex;
     padding: 0px var(--container-padding-desktop, 32px);
     align-items: center;
-    gap: var(--spacing-7xl, 64px);
     max-width: 1280px;
     width: 100%;
 }
@@ -575,6 +571,7 @@ h3 {
 
 footer {
     display: flex;
+    background: #FAFAFA;
     flex-direction: column;
     padding: var(--spacing-7xl, 64px) 0px var(--spacing-6xl, 48px) 0px;
     align-items: center;
@@ -739,7 +736,134 @@ label {
     width: 100%;
 }
 
+.company_names {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    gap: 24px;
+}
+
+.markers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 712px;
+    width: 100%;
+}
+
+.list_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 320px;
+    width: 100%;
+}
+
+
+.hidden_image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.class {
+    display: flex;
+    flex-direction: column;
+    background-color: #53389E;
+    border-radius: 23px;
+    max-width: 1216px;
+    width: 100%;
+}
+
+.style_zero {
+    background-color: #53389E;
+    border-radius: var(--radius-4xl, 24px);
+    max-width: 736px;
+    width: 100%;
+}
+
+.shoot {
+    color: #FFF;
+    font-size: 36px;
+    font-family: var(--Font-family-font-family-display, Inter);
+    line-height: 44px;
+    max-width: 608px;
+    width: 100%;
+    margin-bottom: 19px;
+}
+
+.shootgun {
+    color: #E9D7FE;
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 45px;
+    max-width: 608px;
+    width: 100%;
+
+}
+
+.divi {
+    max-width: 608px;
+    width: 100%;
+}
+
+.more {
+    color: #414651;
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 18px;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+}
+
+.get_more {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 18px;
+    border-radius: var(--radius-md, 8px);
+    border: none;
+    background-color: #7F56D9;
+    order: -1;
+}
+
+.Woman {
+    width: 100%;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.girlss {
+    width: 100%;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    height: 100%;
+}
+
 /* hidden */
+
+.board {
+    display: none;
+}
+
+.hidden_image {
+    display: none;
+}
+
+.btn_span {
+    display: none;
+}
+
+.btn_mobile {
+    display: none;
+}
 
 .menu {
     display: none;
@@ -769,12 +893,390 @@ label {
     }
 
     .car {
-        display: inline;
-        min-height: 456px;
+        display: flex;
+        justify-content: center;
+        max-width: 768px;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .title_content {
+        display: flex;
+        max-width: 704px;
+        width: 100%;
+    }
+
+    .brand_content {
+        display: flex;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .company_names {
+        max-width: 768px;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .logic_card {
+        display: flex;
+        max-width: 768px;
+        width: 100%;
+        gap: 64px;
+    }
+
+    .logic_contant {
+        max-width: 320px;
+        width: 100%;
+    }
+    
+    .business_box {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .first_wrap {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .price_place {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .price_meaning {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .dash_board {
+        max-width: 440px;
+        width: 100%;
+    }
+
+    .wrapper_container {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .markers {
+        display: flex;
+        justify-content: space-between;
+        max-width: 704px;
+        width: 100%;
+    }
+
+    .image_cont {
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .face {
+        display: flex;
+        border-radius: 0px;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer_div {
+        flex-direction: column;
+        gap: 48px;
+        max-width: 704px;
+        width: 100%;
+    }
+
+    .list_box {
+        flex-direction: column;
+        gap: 32px;
+        max-width: 704px;
+        width: 100%;
+    }
+
+    .inputs {
+        order: -1;
+    }
+
+    .last_wrapper {
+        max-width: 704px;
+        width: 100%;
+    }
+
+    .position {
+        position: relative;
+        left: 95px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .title {
+        align-items: flex-start;
+        padding: 64px 14px 0 14px;
+        max-width: 320px;
+        width: 100%;
+    }
+    
+    .banking {
+        align-items: flex-start;
+    }
+
+    h1 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .btns {
+        display: none;
+    }
+
+    .btns_group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .btn_span {
+        display: flex;
+        gap: 12px;
+        padding: 12px 18px;
+        align-items: center;
+        border-radius: 10px;
+        background: #FFF;
+        justify-content: center;
+        max-width: 288px;
+        width: 100%;
+        margin-top: 15px;
+        cursor: pointer;
+    }   
+
+    .btn_mobile {
+        justify-content: center;
+        display: flex;
+        border-radius: var(--radius-md, 8px);
+        background: #7F56D9;
+        padding: 12px 18px;
+        min-height: 48px;
+        max-width: 288px;
+        width: 100%;
+        cursor: pointer;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .car {
+        max-width: 320px;
         width: 100%;
     }
 
     .Geobak {
+        width: 100%;
+    }
+
+    .brand_titles {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .company_names {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .logic_card {
+        flex-direction: column;
+        align-items: center;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .thunder_size {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .hidden_image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .class {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .divi {
+        display: flex;
+        flex-direction: column;
+        max-width: 240px;
+        width: 100%;
+    }
+
+    .style_zero {
+        display: flex;
+        justify-content: center;
+        max-width: 320px;
+        width: 100%;
+        padding: var(--spacing-5xl, 40px) var(--spacing-3xl, 24px) var(--spacing-6xl, 48px) var(--spacing-3xl, 24px);
+    }
+
+    .btn_spann {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .business_box {
+        max-width: 320px;
+        width: 100%;
+    }
+    
+    .price_place {
+        flex-direction: column;
+        padding: 0 16px;
+        max-width: 320px;
+        width: 100%;
+        gap: 48px;
+    }
+
+    .position {
+        display: none;
+    }
+
+    .board {
+        display: flex;
+        position: relative;
+        right: 15px;
+    }
+
+    .dash_board {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .markers {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .wrappper {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .wrapper_container {
+        align-items: center;
+    }
+    
+    .brand_titles {
+        display: flex;
+        justify-content: center;
+        color: #535862;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    
+    .image_cont {
+        max-width: 320px;
+        width: 100%;
+    }
+    
+    .stars {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .content_div {
+        padding: var(--spacing-5xl, 40px) var(--spacing-3xl, 24px);
+        max-width: 320  px;
+        width: 100%;
+    }
+
+    .footer_div {
+        align-items: center;
+        padding: 0 16px;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .list_box {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .last_wrapper {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .inputs {
+        flex-direction: column; 
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .input_group {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .submit {
+        max-width: 288px;
+        padding: 10px 16px;
+        width: 100%;
+    }
+
+    .email {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .list_container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .last_wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px 32px 5px 32px;
+        gap: 24px;
+        max-width: 320px;
         width: 100%;
     }
 }
